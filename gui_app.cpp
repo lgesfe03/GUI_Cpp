@@ -1,3 +1,4 @@
+#include <iostream>
 #include <gtk/gtk.h>
 
 class GUI {
@@ -58,6 +59,6 @@ class GUI {
 int main(int argc, char *argv[]) {
     GUI gui;
     gui.run();
-
+    std::cout << __LINE__ << std::endl;
     return 0;
 }
